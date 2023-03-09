@@ -1,0 +1,22 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.headerOption__title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerOption:hover{
+    color: black;
+}
+
+.headerOption__icon{
+    object-fit: contain;
+    height: 25px !important;      /* !important because material ui has more precendence so without important it will accept no change in height and width*/
+    width: 25px !important;
+}
